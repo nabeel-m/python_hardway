@@ -30,6 +30,7 @@ target.write(line3)
 target.write("\n")
 
 print("\n")
+print("\n")
 print(f"Read the file {filename}")
 target = open(filename)
 print(target.read())
