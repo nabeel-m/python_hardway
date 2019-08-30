@@ -9,7 +9,7 @@ def print_one(args1):
     print(f"args1 : {args1}")
 
 def print_none():
-    print("I got nothing")
+    print("I got nothing\n")
 
 
 
