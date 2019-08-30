@@ -4,6 +4,7 @@ script, filename=argv
 
 txt = open(filename)
 
+
 print(f"Here is a {filename}")
 print(txt.read())
 
