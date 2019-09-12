@@ -15,4 +15,5 @@ def sinval(x,n):
 
 x=int(input("Enter the values in degree."))
 n=int(input("Enter the no.of terms:"))
-print(sinval(x,n))              
+print(round(sinval(x,n),2))  
+
