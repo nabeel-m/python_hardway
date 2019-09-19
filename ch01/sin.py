@@ -1,3 +1,4 @@
+import math
 def factorial(a):
         fact=1
         for i in range(1,a+1):
@@ -11,9 +12,11 @@ def sinval(x,n):
                 pi=22/7
                 radiant=x*(pi/180)
                 sin=sin+((radiant**(2*i+1))/factorial(2*i+1))*sign
+                #sine=round(sin,2)
         return sin
-
-x=int(input("Enter the values in degree."))
+        
+#x=int(input("Enter the values in degree."))
 n=int(input("Enter the no.of terms:"))
-print(round(sinval(x,n),2))  
+for x in range(0,91):
+        print(f"sin{x}degree :",sinval(x,n))  
 
