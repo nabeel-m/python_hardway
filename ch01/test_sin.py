@@ -1,7 +1,8 @@
 import unittest
-from math import sin
+import math
 from sin import factorial
 from sin import sinval
+from sin import sinangle
 
 class SineVal(unittest.TestCase):
     def test_factorial(self):
@@ -9,5 +10,5 @@ class SineVal(unittest.TestCase):
 
     def test_sinval(self):
         for x in range (0,91):
-            self.assertEquals(sinval(x,20),sin(x))
+            self.assertLessEqual(sinval(x,20)-sinangle(x),0.1)
             #self.assertEqual(sinval(45,20),sin(45))        
