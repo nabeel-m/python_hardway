@@ -12,11 +12,20 @@ def sinval(x,n):
                 pi=22/7
                 radiant=x*(pi/180)
                 sin=sin+((radiant**(2*i+1))/factorial(2*i+1))*sign
-                #sine=round(sin,2)
-        return sin
-        
+                sine=round(sin,4)
+        return sine
+
+def sinangle(x):
+        rad=math.radians(x)
+        sine=round(math.sin(rad),4)
+        return sine
+
+
 #x=int(input("Enter the values in degree."))
 n=int(input("Enter the no.of terms:"))
 for x in range(0,91):
         print(f"sin{x}degree :",sinval(x,n))  
 
+x=int(input("Enter an angle:")) 
+print(f"sin{x}",sinangle(x))                    
+        
