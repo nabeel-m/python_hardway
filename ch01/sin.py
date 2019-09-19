@@ -17,6 +17,6 @@ def sinval(x,n):
         
 #x=int(input("Enter the values in degree."))
 n=int(input("Enter the no.of terms:"))
-for x in range(0,91):
+for x in range(0,90):
         print(f"sin{x}degree :",sinval(x,n))  
 
