@@ -1,5 +1,5 @@
 i = 0
-numbers = []
+numbers =[]
 
 while i < 6:
     print(f"At the top of i is{i}")
