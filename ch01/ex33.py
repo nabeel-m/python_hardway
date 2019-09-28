@@ -6,7 +6,7 @@ class Parent(object):
 class Child(Parent):
     
     def altered(self):
-        print("CHILD,BEFORE PARENT ,altered()")
+        print("CHILD,BEFORE PARENT ,altered() ")
         super(Child,self).altered()
 
         print("CHILD,AFTER PARENT ,altered()")
