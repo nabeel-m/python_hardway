@@ -21,7 +21,7 @@ class Child(object):
         print("CHILD override()") 
 
     def altered(self):
-        print("CHILD,BEFORE OTHER altered()") 
+        print("CHILD,BEFORE OTHER altered() ") 
         self.other.altered()
         print("CHILD,BEFORE OTHER altered()") 
 
