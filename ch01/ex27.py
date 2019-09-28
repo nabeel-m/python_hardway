@@ -69,6 +69,6 @@ def start():
     elif choice =="right":
         cthulhu_room()
     else:
-        dead("you stumble around the room until you starve")
+        dead("you stumble around the room until you starve:")
 
 start()                                    
