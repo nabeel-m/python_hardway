@@ -10,5 +10,5 @@ class SineVal(unittest.TestCase):
 
     def test_sinval(self):
         for x in range (0,91):
-            self.assertLessEqual(sinval(x,20)-sinangle(x),0.01)
+            self.assertLessEqual(sinval(x,20)-sinangle(x),0.001)
             #self.assertEqual(sinval(45,20),sin(45))        

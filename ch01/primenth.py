@@ -1,23 +1,11 @@
-n=int(input("Enter a limit:"))   
+from sympy import prime
+def primenth(n):
+    nth_prime=prime(n)
+    return nth_prime
 
-num=1
-if n == 1:
-    print("1th prime number is 2")
+n=int(input("Enter the limit:"))
+print(f"{n}th prime is:",primenth(n))    
 
-else:
-    count =1
-    while count <= n:
-        num+=1
-        for i in range(2,num):
-            if num%i ==0:
-                break
-            else:
-                continue
-        else:
-            prime=num
-            count+=1  
-    else:
-        print(f"""{n}th prime no. is {prime}""")            
          
 
 

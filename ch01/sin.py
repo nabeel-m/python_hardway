@@ -12,12 +12,12 @@ def sinval(x,n):
                 pi=22/7
                 radiant=x*(pi/180)
                 sin=sin+((radiant**(2*i+1))/factorial(2*i+1))*sign
-                sine=round(sin,4)
+                sine=sin
         return sine
 
 def sinangle(x):
         rad=math.radians(x)
-        sine=round(math.sin(rad),4)
+        sine=math.sin(rad)
         return sine
 
 
