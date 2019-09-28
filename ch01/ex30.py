@@ -36,7 +36,7 @@ mary =Person("mary")
 
 mary.pet = satan
 
-frank = Employee("frank",120000)
+frank = Employee("frank:",120000)
 
 frank.pet = rover
 
