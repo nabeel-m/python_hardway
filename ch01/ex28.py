@@ -7,7 +7,7 @@ more_stuff=["Day","night","song","frisbee",
 
 while len(stuff) != 10:
     next_one=more_stuff.pop()
-    print("Adding :",next_one)
+    print("Adding -",next_one)
     stuff.append(next_one)
     print(f"There are {len(stuff)} items now.")
 
