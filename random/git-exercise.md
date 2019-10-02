@@ -1,16 +1,19 @@
-#git exercises: navigate a repository#
+# git exercises: navigate a repository
 
-[for reference][("https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/")]
+[reference]("https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/")
 
 
-##exercise##
+## Exercise
 
 1.Check out matz’s commit of Ruby from 1998. The commit ID is '3db12e8b236ac8f88db8eb4690d10e4a3b8dbcd4'. Find out how many lines of code Ruby was at that time.
 
-   code:
-	    '''git checkout 3db12e8b236ac8f88db8eb4690d10e4a3b8dbcd4'''
-		'''git branch'''
-		'''git log --shortstat --author="matz" --since 1998'''
+solution:
+```shell
+    git checkout 3db12e8b236ac8f88db8eb4690d10e4a3b8dbcd4
+    git branch
+    git log --shortstat --author="matz" --since 1998
+```
+   
 
 2.Check out the current master branch
 
