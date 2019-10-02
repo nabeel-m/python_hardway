@@ -17,13 +17,13 @@ solution:
 
 2.Check out the current master branch
 
-   code:
-	    '''git checkout master'''
+   solution:
+	    	```git checkout master```
 
 3.Look at the history for the file 'hash.c'. What was the last commit ID that changed that file?
 
    code:
-		'''git log hash.c'''
+		```git log hash.c'''
 		'''git log --oneline -n 1 hash.c'''
 
 4.Get a diff of how hash.c has changed in the last 20ish years: compare that file on the master branch to the file at commit '3db12e8b236ac8f88db8eb4690d10e4a3b8dbcd4'
