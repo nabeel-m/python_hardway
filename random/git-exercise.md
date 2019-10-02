@@ -88,7 +88,7 @@
 16.What’s the most recent commit that included the word tkutil?
 
    code:
-	'''git log -n 1 --grep tkutil'''
+	'''git log -n 1 --grep tkutil '''
 
 17.Check out the commit e51dca2596db9567bd4d698b18b4d300575d3881 and create a new branch that points at that commit.
 
