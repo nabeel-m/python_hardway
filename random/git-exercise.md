@@ -105,7 +105,6 @@ solution:
 ```shell
 git diff --stat 65a5162550f58047974793cdc8067a970b2435c0  9e3d9a2a009d2a0281802a84e1c5cc1c887edc71 -- lib/telnet.rb
 ```
-
 14.How many commits were made between Ruby v2.5.1 and v2.5.2 (tags v2_5_1 and v2_5_3) (this one is a tiny bit tricky, there’s more than one step)
 
 solution:
