@@ -17,8 +17,10 @@ solution:
 
 2.Check out the current master branch
 
-   solution:
-	    	```git checkout master```
+solution:
+```shell
+   git checkout master
+```
 
 3.Look at the history for the file 'hash.c'. What was the last commit ID that changed that file?
 
