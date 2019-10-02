@@ -1,6 +1,6 @@
 #git exercises: navigate a repository#
 
-[for reference]("https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/")
+[for reference](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/)
 
 
 ##exercise##
