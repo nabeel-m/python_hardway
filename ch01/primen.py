@@ -1,6 +1,3 @@
-
-
-#n=int(input("Enter a limit:"))   
 def primen(n):
     num=1
     if n == 1:
