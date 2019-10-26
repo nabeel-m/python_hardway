@@ -13,13 +13,14 @@ class Employee:
         print(self.name,"\t_____|\t",self.salary)
 
 def main():
+    
     print("Name\t_____|\tSalary")
     print("-------------------------")
     
     emp1 = Employee("Arjun", 30000)
     emp1.displayEmployee()
     
-    emp2 = Employee("Raj",45000)
+    emp2 = Employee("Raj", 45000)
     emp2.displayEmployee()  
 
     emp3 = Employee("Rajesh", 50000)       
