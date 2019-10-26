@@ -1,10 +1,10 @@
 class Employee:
-    empcount=0
+    empcount = 0
     
-    def __init__(self,name,salary):
-        self.name=name
-        self.salary=salary
-        Employee.empcount+=1
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+        Employee.empcount += 1
 
     def displaycount(self):
         print("Total employee:",Employee.empcount)
