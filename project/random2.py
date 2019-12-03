@@ -4,15 +4,12 @@ class Filter:
         self.size = size
         self.threshold = threshold
 
-    def filter(self, threshold):
-        for i in range(len(self.items)):
+    def filter(self, size, threshold):
+        for i in range(len(self.items)-1,-1,-1):
             if self.items[i] <= self.threshold: 
-                return self.items.remove(self.items[i])  
-
-
-            
-    #def display(self, size, threshold):
-     #   print(self.items[len(self.items)-self.size:]
+                self.items.remove(self.items[i])
+                
+        return self.items[len(self.items)-self.size:]
 
 def main():
     s = int(input("Size:"))
@@ -23,11 +20,7 @@ def main():
     
     print(f.items)
     print("\n")
-    
-    for i in range(len(f.items)):
-        f.filter(t)
-    #f.items.sort()
-    print(f.items[len(f.items)-s:])
+    print(f.filter(s,t))
 
 if __name__ == "__main__":
     main()
